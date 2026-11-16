@@ -1,0 +1,12 @@
+[project]
+name = "future404"
+version = "0.1.0"
+description = "AI-reshaped banking prototype: conversational banking, insights, recommendations, fraud alerts"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
