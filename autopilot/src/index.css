@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@import '@westpac/style-config/tailwind';
+@import '@westpac/style-config/themes/wbc';
+@source "../node_modules/@westpac/ui/src";
+
+@font-face {
+  src: url('/fonts/Westpac-Bold-v2.007.woff2') format('woff2');
+  font-family: 'Westpac';
+  font-weight: 100 900;
+  font-style: normal;
+}
